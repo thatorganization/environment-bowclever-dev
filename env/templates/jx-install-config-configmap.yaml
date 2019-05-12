@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRANZ4M/zDWXwEuZ6uj0zyJ8QwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkMDdlM2E5OWEtZmViNS00YjM0LWE1Y2QtOTM4N2JlMjJjM2Q2
+    MB4XDTE5MDUxMjA4NTgyNVoXDTI0MDUxMDA5NTgyNVowLzEtMCsGA1UEAxMkMDdl
+    M2E5OWEtZmViNS00YjM0LWE1Y2QtOTM4N2JlMjJjM2Q2MIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEArNoG2Bs6Px+SG1gWjmHkLeJFAB+py273Vt103ofd
+    7F2TGrgOe3PuZFIGL/7mS+cD6vYaXbmmVojN4+Ijeh5+7oM5ScL21PvgvqsOBi1h
+    MpRbTR0PEo04Xrfd09s44IVbEUqeoztWiOP3fW9IUV0zakJdwqF21ZOxvv+YMfl4
+    qQzN4NwxGfTg+dC5tQ0yijleOsZUx5rXWiA4DP1u3Cxl++q+PRqdWc0ufIvp29yZ
+    tnbsWjb8TeNS6OHsOOz4z3Dzwjd0x4i2Yby+Vr7AvmG78CZgH/GRD+szc8OAG95G
+    FKcoGWF69MuW/XwYN50hV+jRp9K3DAzC+ftqPzWbyoo7DwIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    Mo39SmGP/YROCN3pciXyjBvylUeQo62+f5rAvoNgjj7pEhubL9LXKoCXS/OXuejK
+    EiB+YSnIGTqZ4IrGMU66Ehc6bvUkxmc11PgjYazDavj3hZ8Z888PwAKwTMhaJKPe
+    8LKLNOSFXvz8NDKhDi6HVh9NVywKXrMvFsPVwnsI2WkTuKdA+ecCA4uQo/ZTiaMo
+    DeWkXbF4nNc35f1Bm1njgHBSC8MUHnvtijrxgyeq6+eYo10vIG3jGX5fdDbDM/SQ
+    adD9a0kcRIILFteTjUAfL/dqxm9oVt1L8UOUqkr4/tmjIgz79o0/sE6ly6Uei3Xc
+    8iIQInQMRtTG8Omx1CYR1w==
+    -----END CERTIFICATE-----
+  clusterName: bowclever
+  jx-install-version: 2.0.118
+  kubeProvider: gke
+  projectID: psyched-camp-233709
+  region: ""
+  secretsLocation: vault
+  server: https://107.167.183.136
+  systemVaultName: jx-vault-bowclever
+  zone: asia-east1-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
